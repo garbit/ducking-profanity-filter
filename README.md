@@ -23,6 +23,8 @@ To run this as a web service you'll need to build and run the docker image using
 
 The service will then run on localhost:3006
 
+**The service will take about 30 seconds to download the model and start up**
+
 ## Endpoints
 
 | Endpoint        | Parameters       | Response                                                                                                                                                                                                                                                     |

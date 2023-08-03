@@ -19,8 +19,6 @@ class ToxicityReponse(BaseModel):
 def predict(q: str) -> ToxicityReponse:
     result = model.predict([q])
     
-    print(result)
-
     return ToxicityReponse(
         toxicity=result["toxicity"][0],
         severe_toxicity=result["severe_toxicity"][0],
