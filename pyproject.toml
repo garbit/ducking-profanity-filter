@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ducking-profanity-filter"
+version = "0.1.0"
+description = ""
+authors = ["Andy Garbett <andy@thinkactivelabs.co.uk>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ducking_profanity_filter"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+detoxify = "^0.5.1"
+fastapi = "^0.100.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
